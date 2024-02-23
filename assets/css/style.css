@@ -382,9 +382,11 @@ img {
 
 }
 /*project*/
+
 .project {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 10px 30px;
     flex-wrap: wrap;
 }
