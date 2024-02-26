@@ -1,520 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOM</title>
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-  
-</head>
-<body>
-  <!--header-->
-  <header class="header" id="header">
-    <nav class="nav container">
-        <a href="#" class="nav__logo">SAVE VI THUAN</a>
-        <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list grid">
-                <li class="nav__item">
-                    <a href="#home" class="nav__link active-link">
-                        <i class="uil uil-estate nav__icon"></i>Home
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#about" class="nav__link">
-                        <i class="uil uil-user nav__icon"></i>About
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#skills" class="nav__link">
-                        <i class="uil uil-file-info-alt nav__icon"></i>Skills
-                    </a>
-                </li>
-               
-                <li class="nav__item">
-                    <a href="#contact" class="nav__link">
-                        <i class="uil uil-message nav__icon"></i>contact
-                    </a>
-                </li>
-            </ul>
-            <i class="uil uil-times nav__close" id="nav-close"></i>
-        </div>
-        <div class="nav__btns">
-            <!--thêm chang button-->
-            <i class="uil uil-moon change-theme" id="theme-button"></i>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="uil uil-apps"></i>
-            </div>
-        </div>
-    </nav>
-  </header>
-  <!--main-->
-  <main class="main">
-    <!--home-->
-    <section class="home section" id="home">
-        <div class="home__container container grid">
-            <div class="home__content grid">
-                <div class="home__social">
-                    <a href="#" target="_blank"  class="home__social-icon">
-                        <i class="uil uil-instagram-alt"></i>
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=100092738466734&mibextid=JRoKGi"  target="_blank"  class="home__social-icon">
-                        <i class="uil uil-facebook-f"></i>
-                    </a>
-                    <a href="#" target="_blank"   class="home__social-icon">
-                        <i class="uil uil-github-alt"></i>
-                    </a>
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">TOM IT</a>
                 </div>
 
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">TOM</span><br> Web Designer</h1>
+
+                    <a href="https://www.facebook.com/profile.php?id=100092738466734&mibextid=JRoKGi" class="button">FOLLOW ME</a>
+                    <a href="https://www.tiktok.com/@tomcodedao?_t=8k6iQxixAaV&_r=1" class="button">XEM TIKTOK</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/profile.php?id=100092738466734&mibextid=JRoKGi" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-google' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
 
                 <div class="home__img">
-                    <img src="image/tom1.webp" alt="" width="150px">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/tom1.webp"/>
+                        </g>
+                    </svg>
                 </div>
-                <div class="home__data">
-                    <h1 class="home__title">Hi, I'm Tom</h1>
-                    <h3 class="home__subtitle">Web developer</h3>
-                    <p class="home__description">I am a student at DNC ​​University and am developing websites, creating beautiful
-                         and quality websites.
-                    </p>
-                    <p class="home__description">User : LUU VI THUAN</p>
-                    <a href="https://www.facebook.com/profile.php?id=100092738466734&mibextid=JRoKGi"  target="_blank" class="button button--flex">
-                        Follow my page<i class="uil uil-message button__icon"></i>
-                    </a>
-                </div>
-            </div>
+            </section>
 
-            <div class="home__scroll">
-                <a href="#" class="home__scroll-button button--flex">
-                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                    <span class="home__scroll-name">Scroll down</span>
-                    <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                </a>
-               
-            </div>
-        </div>
-    </section>
-<!--about-->
-<section class="about section" id="about">
-    <h2 class="section__title">About Me</h2>
-    <span class="section__subtitle">My introduction</span>
-    <div class="about__container container grid">
-        <img src="image/info.png" alt="" class="about__img">
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">ABOUT TOM</h2>
 
-        <div class="about__data">
-            <p class="about__description">
-                Web developer , More than 1 year of studying and working to accumulate experience through various website design projects.
-            </p>
-
-            <div class="about__info">
-                <div>
-                    <span class="about__info-title">+1</span>
-                    <span class="about__info-name">Year <br> experience</span>
-                </div>
-                <div>
-                    <span class="about__info-title"> ++ </span>
-                    <span class="about__info-name">Completed <br> project</span>
-                </div>
-                <div>
-                    <span class="about__info-title"> ++ </span>
-                    <span class="about__info-name">Companies <br> worked</span>
-                </div>
-            </div>
-
-            <div class="about__buttons">
-                <a  href="https://www.tiktok.com/@tomcodedao?_t=8k6iQxixAaV&_r=1" class="button button--flex">
-                XEM TIKTOK
-            </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!--project-->
-<h4 class="section__title" style="font-size: 1.4rem;">Project (Front-End)</h4>
-<p class="mota__title"> < Nhắn tin để biết chi tiết > </p>
-<section class="project" id="project">
-       
-        <div class="project__one">
-            <img src="image/interface1.jpg" alt="">
-            <p class="section__title" style="font-size: 1.1rem;text-align: left;">DESIGN FOOD WEBSITE</p>
-            <p class="section__title" style="color: red;font-size: 1rem;text-align: left;">29.000 VNĐ</p>
-            <div class="about__buttons" style="margin-top: 10px;">
-                <a  href="https://drive.google.com/file/d/1QnODcbDE6sP-7nz9HgpmaPtzMHoQM9iA/view?usp=sharing" class="button button--flex">
-               DEMO WEBSITE
-            </a>
-            </div>
-        </div>
-
-        <div class="project__one">
-            <img src="image/interface2.jpg" alt="">
-            <p class="section__title" style="font-size: 1.1rem;text-align: left;">DESIGN SELL WATCHES WEBSITE</p>
-            <p class="section__title" style="color: red;font-size: 1rem;text-align: left;">39.000 VNĐ</p>
-            <div class="about__buttons" style="margin-top: 10px;">
-                <a  href="https://drive.google.com/file/d/1QqD-PB2IsQVIjpYBdwE7HzEy7pfWDHf0/view?usp=sharing" class="button button--flex">
-               DEMO WEBSITE
-            </a>
-            </div>
-        </div>
-
-        <div class="project__one">
-            <img src="image/interface3.jpg" alt="">
-            <p class="section__title" style="font-size: 1.1rem;text-align: left;">DESIGN CAR WEBSITE</p>
-            <p class="section__title" style="color: red;font-size: 1rem;text-align: left;">39.000 VNĐ</p>
-            <div class="about__buttons" style="margin-top: 10px;">
-                <a  href="https://drive.google.com/file/d/1R_xu5mnWS5eXAVmg_Rr4lPpGIMCA-9PM/view?usp=sharing" class="button button--flex">
-               DEMO WEBSITE
-            </a>
-            </div>
-        </div>
-
-
-        <div class="project__one">
-            <img src="image/interface4.jpg" alt="">
-            <p class="section__title" style="font-size: 1.1rem;text-align: left;">DESIGN CAR-2 WEBSITE</p>
-            <p class="section__title" style="color: red;font-size: 1rem;text-align: left;">29.000 VNĐ</p>
-            <div class="about__buttons" style="margin-top: 10px;">
-                <a  href="https://drive.google.com/file/d/1Rf3HnwEBlRy8rFzdthYPpARDncQDue9S/view?usp=sharing" class="button button--flex">
-               DEMO WEBSITE
-            </a>
-            </div>
-        </div>
-
-        <div class="project__one">
-            <img src="image/interface6.jpg" alt="">
-            <p class="section__title" style="font-size: 1.1rem;text-align: left;">DESIGN CAR-3 WEBSITE</p>
-            <p class="section__title" style="color: red;font-size: 1rem;text-align: left;">29.000 VNĐ</p>
-            <div class="about__buttons" style="margin-top: 10px;">
-                <a  href="https://drive.google.com/file/d/1Rd6rgauisCjciFmBk-aVaI7-cTwJxBr1/view?usp=sharing" class="button button--flex">
-               DEMO WEBSITE
-            </a>
-            </div>
-        </div>
-
-        <div class="project__one">
-            <img src="image/interface7.jpg" alt="">
-            <p class="section__title" style="font-size: 1.1rem;text-align: left;">DESIGN FURNITURE WEBSITE</p>
-            <p class="section__title" style="color: red;font-size: 1rem;text-align: left;">29.000 VNĐ</p>
-            <div class="about__buttons" style="margin-top: 10px;">
-                <a  href="https://drive.google.com/file/d/1Rh51xMmRUjitRgxg4RyiuXlqmbQmBI7U/view?usp=sharing" class="button button--flex">
-               DEMO WEBSITE
-            </a>
-            </div>
-        </div>
-
-        <div class="project__one">
-            <img src="image/interface5.jpg" alt="">
-            <p class="section__title" style="font-size: 1.1rem;text-align: left;">DESIGN PET WEBSITE</p>
-            <p class="section__title" style="color: red;font-size: 1rem;text-align: left;">49.000 VNĐ</p>
-            <div class="about__buttons" style="margin-top: 10px;">
-                <a  href="https://drive.google.com/file/d/1RlAG0I4ykzi7zOC__B5FaYzCmc2nPAsa/view?usp=sharing" class="button button--flex">
-               DEMO WEBSITE
-            </a>
-            </div>
-        </div>
-
- 
-</section>
-<!--end-->
-
-
-<!--project-->
-<h4 class="section__title" style="font-size: 1.4rem;margin-top: 43px;">Project (Front-End and Back-End)</h4>
-<p class="mota__title"> < Nhắn tin để biết chi tiết > </p>
-<section class="project" id="project">
-   
-        <div class="project__two">
-            <img src="image/anh1.jpg" alt="">
-            <p class="section__title" style="font-size: 1.3rem;text-align: left;">WEBSITE Bán hoa (mẫu 1)</p>
-            <p class="section__title" style="color: red;font-size: 1rem;text-align: left;"></p>
-            <span>Code website : ASP.NET Core C# , HTML , CSS , JS , BOOTSTRAP và SQL</span>
-            <div class="about__buttons" style="margin-top: 10px;">
-                <a  href="https://drive.google.com/file/d/1QoZnxZFz1vqGS8pc565Ha4A45kELBhVn/view?usp=sharing" class="button button--flex">
-               DEMO WEBSITE
-            </a>
-            </div>
-        </div>
-
-        <div class="project__two">
-            <img src="image/hoa1.jpg" alt="">
-            <p class="section__title" style="font-size: 1.3rem;text-align: left;">WEBSITE Bán hoa (mẫu 2)</p>
-            <p class="section__title" style="color: red;font-size: 1rem;text-align: left;"></p>
-            <span>Code website : ASP.NET MVC C# , HTML , CSS , JS , BOOTSTRAP và SQL</span>
-            <div class="about__buttons" style="margin-top: 10px;">
-                <a  href="https://drive.google.com/file/d/1-BFStSBVVHhzp81XTWZCmX8sPVkfA5Ed/view?usp=sharing" class="button button--flex">
-               DEMO WEBSITE
-            </a>
-            </div>
-        </div>
-
-
-</section>
-<!--end-->
-
-
-<!--skill-->
-<section class="skills section" id="skills">
-    <h2 class="section__title">Skills</h2>
-    <span class="section__subtitle">My technical level</span>
-    <div class="skills__container container grid">
-        <div>
-          <div class="skills__content skills__open">
-
-            <div class="skills__header">
-                <i class="uil uil-brackets-curly skills__icon"></i>
-                <div>
-                    <h1 class="skills__title">Frontend Developer</h1>
-                    <span class="skills__subtitle">More than 1 years</span>
-                </div>
-
-                <i class="uil uil-angle-down"></i>
-            </div>
-
-            <div class="skills__list grid">
-                <div class="skills__data">
-                    <div class="skills__titles">
-                        <h3 class="skills__name">HTML</h3>
-                      
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/project2.png" alt="">
                     </div>
                     
+                    <div>
+                        <h2 class="about__subtitle">I'am TOM</h2>
+                        <p class="about__text"> Web developer , More than 1 year of studying and working to accumulate experience through various website design projects.</p>           
+                    </div>                                   
                 </div>
+            </section>
 
-                <div class="skills__data">
-                    <div class="skills__titles">
-                        <h3 class="skills__name">CSS</h3>
-                      
-                    </div>
-                   
-                </div>
-
-                <div class="skills__data">
-                    <div class="skills__titles">
-                        <h3 class="skills__name">Javascript</h3>
-                       
-                    </div>
-                    
-                </div>
-
-                <div class="skills__data">
-                    <div class="skills__titles">
-                        <h3 class="skills__name">React</h3>
-                       
-                    </div>
-                    
-                </div>
-
-            </div>
-
-          </div>
-          <div class="skills__content skills__close">
-            <div class="skills__header">
-                <i class="uil uil-server-connection skills__icon"></i>
-                <div>
-                    <h1 class="skills__title">Backend Developer</h1>
-                    <span class="skills__subtitle">More than 3 months</span>
-                </div>
-
-                <i class="uil uil-angle-down"></i>
-            </div>
-
-            <div class="skills__list grid">
-                <div class="skills__data">
-                    <div class="skills__titles">
-                        <h3 class="skills__name">C#</h3>
-                       
-                    </div>
-                   
-                </div>
-
-                <div class="skills__data">
-                    <div class="skills__titles">
-                        <h3 class="skills__name">Node JS</h3>
-                       
-                    </div>
-                   
-                </div>
-
-                <div class="skills__data">
-                    <div class="skills__titles">
-                        <h3 class="skills__name">Java</h3>
-                       
-                    </div>
-                    
-                </div>
-
+          
             
 
-            </div>
-          </div>
-        </div> 
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">PROJECT / FRONT-END</h2>
 
-        <div>
-            <div class="skills__content skills__close">
-
-                <div class="skills__header">
-                    <i class="uil uil-swatchbook skills__icon"></i>
-                    <div>
-                        <h1 class="skills__title">Designer</h1>
-                        <span class="skills__subtitle">More 2 months</span>
+                <div class="work__container bd-grid">
+                    <div class="project">
+                    <a href="" class="work__img">
+                        <img src="assets/img/interface1.jpg" alt="">
+                       
+                    </a>
+                    <a href="https://drive.google.com/file/d/1QnODcbDE6sP-7nz9HgpmaPtzMHoQM9iA/view?usp=sharing" class="button" style="margin-top: 10px;">XEM DEMO</a>
                     </div>
-    
-                    <i class="uil uil-angle-down"></i>
-                </div>
-    
-                <div class="skills__list grid">
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name">Figma</h3>
-                          
-                        </div>
-                      
-                    </div>
-    
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name">Wordpress</h3>
-                          
-                        </div>
-                     
-                    </div>
-    
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name">Photoshop</h3>
-                           
-                        </div>
-                     
-                    </div>
-                </div>
-              </div>
-        </div> 
-    </div>
-</section>
-  
-
-<!--project in mind-->
-<section class="project section">
-    <div class="project__bg">
-        <div class="project__container container grid">
-            <div class="project__data">
-                <h2 class="project__title">You have a new project</h2>
-                <p class="project__description">Contact me I can help with my experience.</p>
-                <a href="#contact" class="button button--flex button--white">
-                    Contact Me 
-                    <i class="uil uil-message project__icon button__icon"></i>
-                </a>
-            </div>
-
-            <img src="image/project2.png" alt="" class="project__img">
-        </div>
-    </div>
-</section>
 
 
-<!--contact-->
-<section class="contact section" id="contact">
-<h2 class="section__title">Contact Me</h2>
-<span class="section__subtitle">Get in touch</span>
 
-<div class="contact__container container grid">
-    <div>
+<div class="project">
 
-        <div class="contact__information">
-            <i class="uil uil-message project__icon contact__icon"></i>
-            <div>
-                <h3 class="contact__title">Follow Me</h3>
-                <span class="contact__subtitle">+ FaceBook : Vĩ Thuận </span>
-            </div>
-        </div>
-
-        <div class="contact__information">
-            <i class="uil uil-envelope contact__icon"></i>
-            <div>
-                <h3 class="contact__title">Email</h3>
-                <span class="contact__subtitle">thuan1204@gmail.com</span>
-            </div>
-        </div>
-
-        <div class="contact__information">
-            <i class="uil uil-map-marker contact__icon"></i>
-            <div>
-                <h3 class="contact__title">Location</h3>
-                <span class="contact__subtitle">DNC - Nam cần thơ</span>
-            </div>
-        </div>
-    </div>
-    <form action="" class="contact_form grid">
-        <div class="contact__inputs grid">
-
-            <div class="contact__content">
-                <label for="" class="contact__label">Name</label>
-                <input type="text" class="contact__input">
-            </div>
-            <div class="contact__content">
-                <label for="" class="contact__label">Email</label>
-                <input type="text" class="contact__input">
-            </div>
-        </div>
-        <div class="contact__content">
-            <label for="" class="contact__label">Message</label>
-           <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
-        </div>
-        <div>
-            <a href="" class="button button--flex">
-                Send
-                <i class="uil uil-message button__icon"></i>
-            </a>
-        </div>
-    </form>
+    <a href="" class="work__img">
+        <img src="assets/img/interface2.jpg" alt="">
+    </a>
+    <a href="https://drive.google.com/file/d/1QqD-PB2IsQVIjpYBdwE7HzEy7pfWDHf0/view?usp=sharing" class="button" style="margin-top: 10px;">XEM DEMO</a>
 </div>
-</section>
-  </main>
-  <!--footer-->
-<footer class="footer">
-    <div class="footer__bg">
-        <div class="footer__container container grid">
-            <div>
-                <h1 class="footer__title">Tom</h1>
-                <span class="footer__subtitle">Web developer</span>
 
+<div class="project">
+
+    <a href="" class="work__img">
+        <img src="assets/img/interface3.jpg" alt="">
+    </a>
+    <a href="https://drive.google.com/file/d/1R_xu5mnWS5eXAVmg_Rr4lPpGIMCA-9PM/view?usp=sharing" class="button" style="margin-top: 10px;">XEM DEMO</a>
+</div>
+
+<div class="project">
+
+    <a href="" class="work__img">
+        <img src="assets/img/interface4.jpg" alt="">
+    </a>
+    <a href="https://drive.google.com/file/d/1Rf3HnwEBlRy8rFzdthYPpARDncQDue9S/view?usp=sharing" class="button" style="margin-top: 10px;">XEM DEMO</a>
+</div>
+
+
+<div class="project">
+
+    <a href="" class="work__img">
+        <img src="assets/img/interface5.jpg" alt="">
+    </a>
+    <a href="https://drive.google.com/file/d/1RlAG0I4ykzi7zOC__B5FaYzCmc2nPAsa/view?usp=sharing" class="button" style="margin-top: 10px;">XEM DEMO</a>
+</div>
+
+
+<div class="project">
+    <a href="" class="work__img">
+        <img src="assets/img/interface6.jpg" alt="">
+    </a>
+    
+    <a href="https://drive.google.com/file/d/1Rd6rgauisCjciFmBk-aVaI7-cTwJxBr1/view?usp=sharing" class="button" style="margin-top: 10px;">XEM DEMO</a>
+</div>
+
+
+<div class="project">
+    <a href="" class="work__img">
+        <img src="assets/img/interface7.jpg" alt="">
+    </a>
+    
+    <a href="https://drive.google.com/file/d/1Rh51xMmRUjitRgxg4RyiuXlqmbQmBI7U/view?usp=sharing" class="button" style="margin-top: 10px;">XEM DEMO</a>
+</div>
+
+                   
+                    
+                   
+                   
+                    
+                   
+                </div>
+            </section>
+
+
+            <section class="work section" id="work">
+                <h2 class="section-title">PROJECT FE/BE</h2>
+                <div class="work__container bd-grid">
+
+                    <div class="project_fl">
+                        <a href="" class="work__img">
+                            <img src="assets/img/anh1.jpg" alt="">
+                        </a>
+                        
+                        <a href="https://drive.google.com/file/d/1QoZnxZFz1vqGS8pc565Ha4A45kELBhVn/view?usp=sharing" class="button" style="margin-top: 10px;">XEM DEMO</a>
+                    </div>
+
+
+
+                    <div class="project_fl">
+                        <a href="" class="work__img">
+                            <img src="assets/img/hoa1.jpg" alt="">
+                        </a>
+                        
+                        <a href="https://drive.google.com/file/d/1-BFStSBVVHhzp81XTWZCmX8sPVkfA5Ed/view?usp=sharing" class="button" style="margin-top: 10px;">XEM DEMO</a>
+                    </div>
+                   
+                  
+                </div>
+
+
+
+            </section>
+            <!--===== CONTACT =====-->
+           
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">SAVE VI THUAN</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-google' ></i></a>
             </div>
-            <ul class="footer__links">
-                <li>
-                    <a href="Services" class="footer__link">Services</a>
-                </li>
-                <li>
-                    <a href="Portfolio" class="footer__link">Portfolio</a>
-                </li>
-                <li>
-                    <a href="contact" class="footer__link">Contact</a>
-                </li>
-            </ul>
-            <div class="footer__socials">
-                <a href=""  target="_blank"  class="footer__social">
-                    <i class="uil uil-facebook-f"></i>
-                </a>
-                <a href=""    target="_blank"  class="footer__social">
-                    <i class="uil uil-envelope-minus"></i>
-                </a>
-                <a href=""  target="_blank"       class="footer__social">
-                    <i class="uil uil-instagram-alt"></i>
-                </a>
-            </div>
-        </div>
-        <p class="footer__copy">#TOM - WEBSITE</p>
-    </div>
-</footer>
+            <p class="footer__copy">TOM</p>
+        </footer>
 
-  <!--scroll top-->
-  <a href="#" class="scrollup" id="scroll-up">
-    <i class="uil uil-arrow-up scrollup__icon"></i>
-  </a>
-  <!--swiper js-->
 
-  
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-  <script src="js/scrollreveal.min.js"></script>
-  <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
