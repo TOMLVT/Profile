@@ -55,3 +55,18 @@ sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .project,.project_fl,.contact__input',{interval: 200}); 
+
+//vo hieu hoa code
+document.addEventListener("keydown", function (event){
+    if (event.ctrlKey){
+       event.preventDefault();
+    }
+    if(event.keyCode == 123){
+       event.preventDefault();
+    }
+});
+
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault(); // Chặn hành động mặc định khi chuột phải được nhấp
+    alert('Xin lỗi, chức năng này đã bị chặn!');
+});
