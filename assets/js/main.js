@@ -70,3 +70,17 @@ document.addEventListener('contextmenu', function(event) {
     event.preventDefault(); // Chặn hành động mặc định khi chuột phải được nhấp
     alert('Xin lỗi, chức năng này đã bị chặn!');
 });
+
+
+
+
+
+//yêu cầu mã
+function checkCode() {
+    var code = prompt("Vui lòng nhập mã để xem nội dung:");
+    if (code === "KPM01") {
+        window.open("https://drive.google.com/drive/folders/1y7EF90YGtp_cIeNh5xZ5sXHeRzUFxjTX?usp=sharing");
+    } else {
+        alert("Mã không đúng. Vui lòng thử lại.");
+    }
+}
